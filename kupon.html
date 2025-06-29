@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulir Kupon Undian BNI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Silahkan Lengkapi Formulir</h2>
+    <form id="kuponForm">
+      <label for="kupon">Pilih Kupon</label>
+      <select id="kupon" name="kupon" required>
+        <option value="">PILIH KUPON</option>
+        <option value="Mercedes">Mercedes-Benz E300</option>
+        <option value="Honda HR-V">All New Honda HR-V</option>
+        <option value="Chery J6">Chery J6</option>
+        <option value="Honda Beat">Honda Beat</option>
+        <option value="Smartphone">Smartphone & Hadiah Lainnya</option>
+      </select>
+
+      <label for="nama">Nama Lengkap</label>
+      <input type="text" id="nama" name="nama" placeholder="Masukkan Nama Lengkap" required />
+
+      <label for="hp">Nomor Handphone</label>
+      <input type="tel" id="hp" name="hp" placeholder="Masukkan Nomor Handphone" required />
+
+      <label for="saldo">Saldo Rekening Tabungan saat ini</label>
+      <input type="text" id="saldo" name="saldo" placeholder="Rp.xxx" required />
+
+      <button type="submit">CETAK KUPON</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #333;
+    text-align: center;
+}
+
+.header {
+    background: linear-gradient(to right, #f57c00, #00bcd4);
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.highlight {
+    color: orange;
+    font-weight: bold;
+}
+
+.periode {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.prizes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px 10px;
+}
+
+.prize {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.cta {
+    margin: 30px 0;
+}
+
+.ambil-link {
+    color: #00bcd4;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.ambil-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.ambil-btn:hover {
+    background-color: darkorange;
+}
+
+.footer {
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 0;
+    margin-top: 40px;
+}

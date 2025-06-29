@@ -1,4 +1,4 @@
-document.getElementById('kuponForm').addEventListener('berhasil.html', function(e) {
+document.getElementById('kuponForm').addEventListener('submit', function(e) {
   e.preventDefault(); // Mencegah reload halaman
 
   const nama = document.getElementById('nama').value;
